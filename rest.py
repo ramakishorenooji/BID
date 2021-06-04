@@ -12,7 +12,7 @@ PARAMS = {'address': location}
 
 # sending get request and saving the response as response object
 r = requests.get(url=URL, params=PARAMS)
-print "this is r details", r
+print ("this is r details", r)
 # extracting data in json format
 data = r.json()
 
